@@ -4,7 +4,7 @@
 DATA_LOCATION="/app-data/tautulli"
 
 # create the data location
-mkdir $DATA_LOCATION
+mkdir -p $DATA_LOCATION
 
 # make "tautulli" the owner of the data location
 chown -R tautulli:tautulli $DATA_LOCATION
